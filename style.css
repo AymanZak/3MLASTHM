@@ -1,0 +1,123 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    background-color: #221f1f !important;
+    
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+/*  navbar  SX*/
+
+ul , ol {
+    margin-bottom: 0;
+}
+ul li, ol li {
+    list-style: none;
+}
+
+nav {
+    background-color: #221f1f;
+}
+#logo {
+    width: 120px;
+
+}
+.navbar-nav .nav-link.active, .nav-link {
+    color: #FFFFFF;
+}
+#tvshow {
+    font-weight: bold;
+}
+
+/*  navbar  DX*/
+.bi-search , .bi-bell-fill {
+    color: #FFFFFF;
+}
+
+#image-user{
+    width: 40px;
+}
+
+/*seconda nav */
+
+.navbar-brand{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 100px !important;
+    padding-left: 50px !important;
+}
+.nav-item dropdown{
+    border-color: 2px solid #FFFFFF;
+}
+.bi-list , .bi-dice-4 {
+    color: #FFFFFF;
+    font-size: 40px;
+    border-color: #FFFFFF;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* hero e carousel */
+
+
+h2 {
+    color: #FFFFFF;
+    margin-left: 100px !important;
+    padding-left: 50px !important;
+   
+}
+
+
+/* FOOTER */
+
+.container-footer{
+    padding: 20px;
+
+}
+
+
+ul.Facebook-instagram{
+    display: flex !important;
+    color: #F5F5F1 !important;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    
+}
+
+.text-muted {
+    color: #F5F5F1 !important;
+    margin-left: 100px;
+}
+
+.service-cod{
+    background-color: #221f1f;
+    border: #F5F5F1 !important;
+    margin-left: 100px !important;
+    margin-top: 20px;
+}
+
+#copy-right{
+    color: #F5F5F1;
+    margin-left: 120px;
+}
+
+button{
+    margin-left: 110px;
+    margin-top: 60px;
+}
+
+/* animare le card si ingradiscano del 40% al passaggio del mouse */
+
+.carousel-item img {
+    transition: tranform 0.3s;
+}
+.carousel-item img:hover{
+    transform: scale(1.4);
+}
